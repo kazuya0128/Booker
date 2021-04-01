@@ -1,0 +1,69 @@
+a {
+  color: black;
+  display: block;
+  font-weight: bold;
+}
+
+.acount:hover {
+  cursor: pointer;
+  background: yellow;
+  color: #000;
+}
+
+.login:hover {
+  cursor: pointer;
+  background: yellow;
+  color: #000;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+}
+
+.menubar {
+  width: 200px;
+  text-align: center;
+  background-color: lightgrey;
+  color: black;
+  align-items: center;
+}
+
+.menubar li {
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -o-box;
+  display: -ms-box;
+  display: box;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+.title-logo {
+  color: yellow;
+}
+
+.content {
+  flex: 1;
+  background-color: white;
+  margin-left: 10px;
+  background-image: url(img/本２.jpg);
+  background-size: cover;
+}
+.box {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border: 2px solid #000;
+  color: black;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0.8;
+  background: rgb(white, 1);
+}
+
+.box h1 {
+  font-weight: bold;
+}
